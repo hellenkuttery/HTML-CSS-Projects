@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "cw-responsive-parallax",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
