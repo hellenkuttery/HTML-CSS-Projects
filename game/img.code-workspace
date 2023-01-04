@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "img",
+			"path": "../../../../clarusway-full-stack-tr-12-22/html-css/class-notes/hc17_animation/4-game/img"
+		},
+		{
+			"name": "transform-transition-animation",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "transform-transition-animation",
+		"liveServer.settings.port": 5501
+	}
+}
