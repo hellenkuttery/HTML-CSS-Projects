@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+/* https://www.pngwing.com/en/free-png-yllbx/download */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3f3c57;
+  color: white;
+  font-family: Oswald, sans-serif;
+}
+.brand {
+  /* background-color: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px; */
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navli {
+  display: inline-block;
+  padding: 0.5rem;
+}
+.navli:hover {
+  border: 2px solid rgb(28, 28, 155);
+  /* Çok iyi güzel oldu */
+  box-shadow: 5px 5px rgb(45, 45, 93), 10px 10px rgb(220, 20, 60),
+    15px 15px rgb(34, 78, 34);
+}
+.social {
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 16%;
+}
+.socialLi {
+  display: inline-block;
+  padding-left: 1rem;
+}
+nav {
+  border-bottom: 1px solid gray;
+  font-weight: 500;
+  font-variant-caps: petite-caps;
+  font-size: 2rem;
+}
+
+.orta {
+  height: 700px;
+  width: 100%;
+
+  background-image: url(./pexels-lucie-liz-3165335.jpg);
+  backdrop-filter: blur(5px);
+  opacity: 0.4;
+}
+
+i {
+  color: crimson;
+}
+.orta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.5;
+}
+.top {
+  font-size: 2rem;
+}
+.middle {
+  font-size: 4rem;
+  color: white;
+}
+.play {
+  padding: 1.5rem;
+  border: none;
+  width: 10rem;
+  background: linear-gradient(45deg, red, blue);
+}
+.video {
+  background-color: rgb(19, 18, 18);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.para1,
+.para2 {
+  width: 30%;
+}
+iframe {
+  border-radius: 2rem;
+  margin-left:15rem;
+  /* filter: grayscale(50%);
+    filter: blur(1px); */
+  filter: url("#myFilter");
+}
+.games {
+  width: 100%;
+  font-size: 1.5rem;
+}
+.games h3{
+    text-align: center;
+}
+.games p{
+    text-align: center;
+}
+.gamesContainer {
+  display: flex;
+}
+.gameList {
+  width: 800px;
+  margin-left:15rem
+}
+
+.gamesLi {
+  font-size: 1.5rem;
+  list-style-type: none;
+
+  background-color: #363333c9;
+
+  width: 50%;
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid gray;
+}
+.gamesLi i {
+  padding-right: 1rem;
+}
+.game {
+  width: 70%;
+  display: flex;
+}
+.imgContainer {
+  background-color: black;
+  border-radius: 6%;
+    text-align: center;
+  width: 450px;
+  height: 250px;
+  padding:1rem;
+  margin: 1rem;
+  box-shadow: 0 0 5px 2px #48abe0,
+  0 0 10px 3px #ebecca,
+  0 0 5px 10px #8a2be2,
+  0 0 5px 10px #ff1493;
+}
+
+
+
+.last{
+    background-color: black;
+    height: 400px;
+}
+footer{
+    background-color: #3f3c57;
+    height: 50px;
+    text-align: center;
+    margin-top:1rem;
+}
+span{
+   
+    font-weight: 400;
+    color:crimson;
+}
